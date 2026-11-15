@@ -1,16 +1,14 @@
-# React + Vite
+React + Vite
+Бұл үлгі React-ті Vite-те HMR (Hot Module Replacement — модульді ыстықтай алмастыру) және кейбір Oxlint ережелерімен жұмыс істету үшін ең аз баптауларды қамтамасыз етеді.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Қазіргі уақытта екі ресми плагин қолжетімді:
 
-Currently, two official plugins are available:
+@vitejs/plugin-react — Oxc құралын пайдаланады
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+@vitejs/plugin-react-swc — SWC құралын пайдаланады
 
-## React Compiler
+React Компиляторы (React Compiler)
+Бұл үлгіде React Компиляторы әзірлеу және жинау (build) өнімділігіне әсер ететіндіктен қосылмаған. Оны қосу үшін мына құжаттаманы қараңыз.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Oxlint конфигурациясын кеңейту
+Егер сіз өндірістік (production) қосымшаны әзірлеп жатсаңыз, түрге бағдарланған линтинг ережелері қосылған TypeScript-ті пайдалануды ұсынамыз. Жобаңызға TypeScript және Oxlint-тің TypeScript қатысты ережелерін қалай біріктіру керектігін білу үшін TS үлгісін қараңыз.
